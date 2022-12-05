@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page 1</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="index.js" defer></script>
+</head>
+<body class="w-full items-center flex flex-col justify-center">
+    <nav class="flex relative container items-center mx-auto justify-between pt-6 px-11">
+        <div class="flex">
+            <a href="#"><img src="./logo.svg" alt="Logo" class="hover:opacity-60 cursor-not-allowed"></a>
+        </div>
+        <div id="menu-btn" class="hidden flex-col absolute md:static md:flex-row md:bg-inherit md:mt-0 md:space-x-14 mt-72 justify-center items-center text-center mx-auto bg-gray-300 w-screen">
+            <a href="" class="font-normal text-lg font-IBM hover:opacity-10 hover:line-through pb-2">Home</a>
+            <a href="" class="font-normal text-lg font-IBM hover:opacity-10 hover:line-through pb-2">Articles</a>
+            <a href="" class="font-normal text-lg font-IBM hover:opacity-10 hover:line-through pb-2">Pricing</a>
+            <a href="" class="font-normal text-lg font-IBM hover:opacity-10 hover:line-through pb-2">About</a>
+            <a href="" class="font-normal text-lg font-IBM hover:opacity-10 hover:line-through pb-2">Contact</a>
+        </div>
+        <div class="flex flex-row justify-center items-center">
+            <button class="bg-loginbutton px-8 rounded-xl py-3 md:mr-4 font-IBM hover:bg-freetrial hover:text-loginbutton">Login</button>
+            <button class="hidden md:flex md:py-3 md:px-8 rounded-xl bg-freetrial text-white font-IBM hover:bg-loginbutton hover:text-freetrial md:w-44">Start Free Trial</button>
+        </div>
+        <div id="button" class="md:hidden hamburger flex flex-col items-center justify-center focus:outline-none">
+            <span class="top"></span>
+            <span class="mid"></span>
+            <span class="bottom"></span>
+        </div>
+    </nav>
+    <div class="border-b-2 mt-6 w-screen"></div>
+
+    <section id="cta" class="items-center flex flex-col border-b-2 w-screen">
+        <h1 class="font-IBM text-freetrial font-bold text-6xl items-center lg:max-w-xl mt-32 text-center">A modern way to build websites.</h1>
+        <p class="font-IBM text-freetrial md:max-w-lg text-center text-xl font-medium mt-8">Empower designers to build professional, custom websites in a completely visual canvas with no code.</p>
+        <button class="bg-freetrial mt-10 py-6 px-10 rounded-xl text-white font-IBM mb-32 hover:opacity-30">Start Free Trial</button>
+    </section>
+
+    <section id="car" class="flex flex-col items-center mx-auto
+    justify-center mb-16">
+    <div class="my-8 flex items-center justify-center">
+        <div class="line"></div>
+        <p class="font-IBM font-semibold text-sm text-freetrial pr-2 pl-2">We share our thoughts on design</p>
+        <div class="line"></div>
+    </div>
+    <div class="flex flex-col md:flex-row justify-center items-center">
+        <div class="md:mx-8 w-72 hover:opacity-30 hover:cursor-pointer">
+            <img src="1.svg" alt="" class="pb-5">
+            <h3 class="font-IBM font-bold text-xl text-freetrial">Redesigning my site <br> increased sales by over 400% in one week.</h3>
+            <p class="font-IBM font-normal text-freetrial text-sm pt-4 mb-3">Jul 1, 2020</p>
+        </div>
+        <div class="md:mr-8 w-72 hover:opacity-30 hover:cursor-pointer">
+            <img src="2.svg" alt="" class="pb-5">
+            <h3 class="font-IBM font-bold text-xl text-freetrial">Design handoff: What <br> engineers really want to see</h3>
+            <p class="font-IBM font-normal text-freetrial text-sm pt-4 mb-3">Jul 1, 2020</p>
+        </div>
+        <div class="md:mr-8 w-72 hover:opacity-30 hover:cursor-pointer">
+            <img src="4.svg" alt="" class="pb-5">
+            <h3 class="font-IBM font-bold text-xl text-freetrial">A comprehensive list of <br> human-computer <br> interactions</h3>
+            <p class="font-IBM font-normal text-freetrial text-sm pt-4 mb-3">Jul 1, 2020</p>
+        </div>
+        <div class="w-72 hover:opacity-30 hover:cursor-pointer">
+            <img src="3.svg" alt="" class="pb-5">
+            <h3 class="font-IBM font-bold text-xl text-freetrial">Why do people hate <br> redesigns?</h3>
+            <p class="font-IBM font-normal text-freetrial text-sm pt-4">Jul 1, 2020</p>
+        </div>
+        <!-- messed up numbering -->
+    </div>
+    </section>
+</body>
+</html>
